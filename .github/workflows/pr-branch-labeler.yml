@@ -1,0 +1,19 @@
+# Workflow file for adding labels to the pull requests depending on the head and base branch.
+name: 'PR Branch Labeler'
+
+on:
+    pull_request:
+        branches:
+            - 'development'
+            - 'qa'
+            - 'master'
+        types: [opened]
+
+jobs:
+    label_prs:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Label PRs
+              uses: ffittschen/pr-branch-labeler@v1
+              with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}

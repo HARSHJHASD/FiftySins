@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="28.014" viewBox="0 0 34 28.014">
+  <g id="credit-card-x" transform="translate(1 1)">
+    <path id="credit-card-x-2" data-name="credit-card-x" d="M25.2,22.6l8,8m0-8-8,8M34,13H2m32,3.2V10.12c0-1.792,0-2.688-.349-3.373a3.2,3.2,0,0,0-1.4-1.4C31.568,5,30.672,5,28.88,5H7.12c-1.792,0-2.688,0-3.373.349a3.2,3.2,0,0,0-1.4,1.4C2,7.432,2,8.328,2,10.12V22.28c0,1.792,0,2.688.349,3.373a3.2,3.2,0,0,0,1.4,1.4c.685.349,1.581.349,3.373.349H18" transform="translate(-2 -5)" fill="none" stroke="#92fff7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

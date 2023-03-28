@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "fifty-fin-dev-1"
+  },
+  "targets": {
+    "fifty-fin-dev-1": {
+      "hosting": {
+        "webapp": [
+          "50fin-web-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

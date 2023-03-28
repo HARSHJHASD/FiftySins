@@ -1,0 +1,20 @@
+# Configuration file for adding labels to the pull request.
+# Apply label "bugfix" if head matches "bugfix/*"
+bugfix:
+    head: 'bugfix/*'
+
+# Apply label "feature" if head matches "feature/*"
+feature:
+    head: 'feature/*'
+
+# Apply label "ready-for-qa" if base matches "development"
+ready-for-qa:
+    base: 'development'
+
+# Apply label "ready-for-production" if head matches "qa"
+ready-for-production:
+    base: 'qa'
+
+# Apply label "production" if base matches "master"
+production:
+    base: 'master'

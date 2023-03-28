@@ -1,0 +1,51 @@
+/* prettier-ignore */
+.container-main {
+    padding: 0 16px;
+}
+
+/* prettier-ignore */
+@media screen and (min-width: 576px) {
+    .container-main {
+      padding: 0 32px;
+    }
+}
+
+/* prettier-ignore */
+@media screen and (min-width: 768px) {
+    .container-main {
+      padding: 0 48px;
+    }
+}
+
+/* prettier-ignore */
+@media screen and (min-width: 992px) {
+    .container-main {
+      padding: 0 64px;
+    }
+}
+
+/* prettier-ignore */
+@media screen and (min-width: 1366px) {
+    .container-main {
+      padding: 0 72px;
+    }
+}
+
+/* prettier-ignore */
+@media screen and (min-width: 1536px) {
+    .container-main {
+      padding: 0 80px;
+    }
+}
+
+/* prettier-ignore */
+@media screen and (min-width: 1760px) {
+    .container-main {
+      padding: 0 96px;
+    }
+}
+
+/* prettier-ignore */
+body {
+    margin: 0;
+}
